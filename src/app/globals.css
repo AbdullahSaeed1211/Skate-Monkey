@@ -56,3 +56,6 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+.purple_gradient {
+  @apply bg-gradient-to-br from-purple-800 to-lavendar bg-clip-text text-transparent;
+}
