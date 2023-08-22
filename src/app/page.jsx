@@ -8,6 +8,7 @@ import {
   Subscribe,
   Footer,
 } from "@/app/components"
+
 const page = () => {
   return (
     <main className="relative">
