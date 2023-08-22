@@ -1,21 +1,22 @@
 import HeroPage from "@/app/components/Hero";
 import PopularProducts from "@/app/components/PopularProducts";
-import SuperQuality from "@/app/components/SuperQuality";
-import Services from "@/app/components/services";
+import Services from "@/app/components/Services";
 import SpecialOffer from "@/app/components/specialOffer";
-import CustomerReviews from "@/app/components/customerReviews";
 import Subscribe from "@/app/components/subscribe";
 import Footer from "@/app/components/footer";
 import PopularProductCard from "@/app/components/PopularProductCard";
 import Button from "@/app/components/Button";
-
+import ServiceCard from "@/app/components/ServiceCard";
+import ReviewCard from "@/app/components/ReviewCard";
+import CustomerReview from "@/app/components/CustomerReviews";
 export {
   HeroPage,
   PopularProducts,
   Services,
-  // SuperQuality,
+  ServiceCard,
   SpecialOffer,
-  CustomerReviews,
+  CustomerReview,
+  ReviewCard,
   Subscribe,
   PopularProductCard,
   Footer,
