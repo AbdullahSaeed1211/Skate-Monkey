@@ -1,4 +1,5 @@
 import {
+  HeroPage,
   PopularProducts,
   SuperQuality,
   Services,
@@ -6,8 +7,7 @@ import {
   CustomerReviews,
   Subscribe,
   Footer,
-} from "@/sections";
-import HeroPage from "./components/Hero";
+} from "@/app/components"
 const page = () => {
   return (
     <main className="relative">
