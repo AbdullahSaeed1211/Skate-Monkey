@@ -9,6 +9,7 @@ import Button from "@/app/components/Button";
 import ServiceCard from "@/app/components/ServiceCard";
 import ReviewCard from "@/app/components/ReviewCard";
 import CustomerReview from "@/app/components/CustomerReviews";
+import CollectionGrid from "@/app/components/CollectionGrid";
 export {
   HeroPage,
   PopularProducts,
@@ -21,6 +22,7 @@ export {
   PopularProductCard,
   Footer,
   Button,
+  CollectionGrid,
 };
 
 export { default as SuperQuality } from "./SuperQuality";

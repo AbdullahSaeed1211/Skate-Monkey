@@ -21,7 +21,7 @@ const HeroPage = () => {
         </p>
 
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[80px] font-bold'>
-          <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-15'>
+          <span className='xl:bg-black xl:whitespace-nowrap relative z-10 pr-15 text-white'>
           Welcome to
           </span>
           <br />
@@ -45,7 +45,7 @@ const HeroPage = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-transparent bg-center border-slate-gray border-3'>
         <Image
           src={bigShoeImg}
           alt='shoe colletion'

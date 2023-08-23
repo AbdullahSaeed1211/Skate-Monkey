@@ -1,10 +1,11 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "@/assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "@/assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3,heroSkate,heroSkate2,heroSkate3 } from "@/assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
+    { href: "#collections", label: "New Collections" },
     { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -73,15 +74,15 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Alex Turner',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "SkateMonkey is the real deal! They've got an incredible selection of skateboards and gear that cater to skaters of all levels.As someone who's been skating for years, I couldn't be happier with their collection. Keep shredding, SkateMonkey!"
     },
     {
         imgURL: customer2,
-        customerName: 'Iris West',
+        customerName: 'Lily Martinez',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "SkateMonkey isn't just a store – it's a hub for skaters to come together and celebrate their passion. Their selection of boards and accessories is always on point, and their dedication to fostering a sense of community is truly admirable.I felt welcomed and supported by the team. Thanks to SkateMonkey, I've embarked on an exciting skateboarding journey!"
     }
 ];
 
@@ -111,7 +112,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "customer@SkateMonkey.com", link: "mailto:customer@SkateMonkey.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },

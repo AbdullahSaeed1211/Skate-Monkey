@@ -1,13 +1,12 @@
 import Image from "next/image";
-import { headerLogo } from "@/assets/images";
 import { hamburger } from "@/assets/icons";
 import { navLinks } from "../constants";
 
 import Link from "next/link";
 const Nav = () => {
   return (
-    <header className="padding-x py-5 w-full">
-      <nav className="flex justify-between items-center max-container">
+    <header className="padding-x py-5 w-full bg-black">
+      <nav className="flex justify-between items-center max-container ">
         <Link rel="stylesheet" href="/">
           {/* <Image src={headerLogo} alt={"Logo"} width={130} height={29} />*/}
           <span

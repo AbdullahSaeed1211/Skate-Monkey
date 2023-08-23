@@ -25,7 +25,7 @@ module.exports = {
       colors: {
         'primary': "#ECEEFF",
         "lavendar": "#967bb6",
-        "slate-gray": "#6D6D6D",
+        "slate-gray": "#cbd5e1",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)"
       },

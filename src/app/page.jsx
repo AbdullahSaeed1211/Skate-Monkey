@@ -7,17 +7,22 @@ import {
   CustomerReview,
   Subscribe,
   Footer,
+  CollectionGrid
 } from "@/app/components"
+
 
 const page = () => {
   return (
-    <main className="relative">
+    <main className="relative bg-black text-white">
       {/* <Nav /> */}
       <section className="xl:padding-l wide:padding-r padding-b">
         <HeroPage />
       </section>
       <section className="padding">
         <PopularProducts />
+      </section>
+      <section className="padding">
+        <CollectionGrid />
       </section>
       <section className="padding">
         <SuperQuality />
@@ -28,7 +33,7 @@ const page = () => {
       <section className="padding">
         <SpecialOffer />
       </section>
-      <section className="bg-pale-blue padding">
+      <section className="bg-blackpadding">
         <CustomerReview />
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
@@ -37,6 +42,7 @@ const page = () => {
       <section className=" bg-black padding-x padding-t pb-8">
         <Footer />
       </section>
+     
     </main>
   );
 };
