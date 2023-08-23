@@ -24,6 +24,18 @@ const Nav = () => {
             Skate Monkey
           </span>
         </Link>
+        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+          {navLinks.map((item) => (
+            <li key={item.label}>
+              <Link
+                href={item.href}
+                className="font-montserrat leading-normal text-lg text-slate-gray hover:underline hover:text-purple-800"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
         <div>
           <div
             className="hidden max-lg:block cursor-pointer"
@@ -47,7 +59,7 @@ const Nav = () => {
                     <li key={item.label} className="py-4">
                       <Link
                         href={item.href}
-                        onClick={closeMenu} // Add this line to close the menu on link click
+                        onClick={closeMenu}
                         className="font-montserrat leading-normal text-2xl text-black hover:underline hover:text-purple-800"
                       >
                         {item.label}
